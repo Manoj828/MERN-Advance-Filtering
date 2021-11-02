@@ -4,6 +4,7 @@ const express = require("express");
 const connectDB = require("./config/db");
 const errorHandler = require("./middleware/errorHandler");
 
+// connecting to mongodb
 connectDB();
 
 const app = express();
